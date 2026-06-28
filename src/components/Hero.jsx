@@ -57,6 +57,7 @@ primary
 "
 >
 
+
 Priyanka
 
 </span>
@@ -71,8 +72,9 @@ mt-4
 
 >
 
-Aspiring Full Stack &
-AI Developer
+I build modern web applications,
+explore AI systems,
+and turn ideas into interactive experiences.
 
 </p>
 
@@ -116,6 +118,40 @@ btn-outline-light
 Resume
 
 </button>
+
+</div>
+
+<div
+className="
+mt-5
+d-flex
+gap-5
+"
+>
+
+<div>
+
+<h3>5+</h3>
+
+<p>Projects</p>
+
+</div>
+
+<div>
+
+<h3>10+</h3>
+
+<p>Technologies</p>
+
+</div>
+
+<div>
+
+<h3>∞</h3>
+
+<p>Learning</p>
+
+</div>
 
 </div>
 
