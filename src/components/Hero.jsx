@@ -1,7 +1,3 @@
-import { motion } from "framer-motion"
-
-export default function Hero(){
-
 return(
 
 <div
@@ -9,17 +5,20 @@ className="
 section
 d-flex
 align-items-center
+justify-content-between
+flex-wrap
 "
 >
 
-<div>
+{/* LEFT */}
 
-<p
-className="
-text-info
-mb-3
-"
+<div
+style={{
+maxWidth:"700px"
+}}
 >
+
+<p className="text-info mb-4">
 
 🟢 OPEN TO OPPORTUNITIES
 
@@ -49,14 +48,10 @@ fw-bold
 >
 
 Hi,
+
 I'm
 
-<span
-className="
-primary
-"
->
-
+<span className="primary">
 
 Priyanka
 
@@ -64,36 +59,36 @@ Priyanka
 
 </motion.h1>
 
-<p
+<h2
 className="
-fs-4
-mt-4
+mt-3
 "
-
 >
 
-I build modern web applications,
-explore AI systems,
-and turn ideas into interactive experiences.
+Aspiring Full Stack &
+AI Developer
 
-</p>
+</h2>
 
 <p
 className="
 text-secondary
+mt-4
+fs-5
 "
-
 >
 
-Building modern web experiences.
+Building modern web experiences,
+exploring AI,
+and creating meaningful products.
 
 </p>
 
 <div
 className="
-mt-5
 d-flex
 gap-3
+mt-5
 "
 >
 
@@ -101,6 +96,7 @@ gap-3
 className="
 btn
 btn-primary
+btn-lg
 "
 >
 
@@ -112,6 +108,7 @@ View Projects
 className="
 btn
 btn-outline-light
+btn-lg
 "
 >
 
@@ -123,15 +120,44 @@ Resume
 
 <div
 className="
-mt-5
 d-flex
 gap-5
+mt-5
 "
 >
 
 <div>
 
-<h3>5+</h3>
+<div
+className="
+mt-4
+d-flex
+gap-4
+fs-5
+"
+>
+
+<span>
+
+🐙 GitHub
+
+</span>
+
+<span>
+
+💼 LinkedIn
+
+</span>
+
+<span>
+
+📧 Email
+
+</span>
+
+</div>
+
+<h2>5+</h2>
 
 <p>Projects</p>
 
@@ -139,7 +165,7 @@ gap-5
 
 <div>
 
-<h3>10+</h3>
+<h2>10+</h2>
 
 <p>Technologies</p>
 
@@ -147,7 +173,7 @@ gap-5
 
 <div>
 
-<h3>∞</h3>
+<h2>∞</h2>
 
 <p>Learning</p>
 
@@ -157,8 +183,48 @@ gap-5
 
 </div>
 
+{/* RIGHT */}
+
+<div
+className="
+hero-card
+"
+>
+
+<div
+className="
+hero-glow
+"
+/>
+
+<div
+className="
+hero-profile
+"
+>
+
+👩‍💻
+
 </div>
 
-)
+<h3>
 
-}
+Building.
+Learning.
+Growing.
+
+</h3>
+
+<p>
+
+Focused on web,
+AI and cloud.
+
+</p>
+
+</div>
+
+</div>
+
+
+)
