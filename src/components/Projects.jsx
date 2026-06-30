@@ -42,6 +42,7 @@ return(
 <section
 id="projects"
 className="section"
+data-aos="zoom-in"
 >
 
 <h1

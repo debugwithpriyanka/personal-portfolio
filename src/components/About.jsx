@@ -13,6 +13,7 @@ align-items-center
 justify-content-between
 flex-wrap
 "
+data-aos="fade-right"
 >
 
 <div

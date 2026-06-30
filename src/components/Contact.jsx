@@ -9,6 +9,7 @@ section
 text-center
 contact-section
 "
+data-aos="fade-up"
 >
 
 <h1

@@ -498,3 +498,9 @@ padding:
 10px 30px;
 
 }
+
+html{
+
+scroll-behavior:smooth;
+
+}

@@ -41,6 +41,7 @@ return(
 
 <section
 className="section"
+data-aos="fade-left"
 >
 
 <h1

@@ -36,6 +36,7 @@ return(
 <section
 id="skills"
 className="section"
+data-aos="fade-up"
 >
 
 <h1
