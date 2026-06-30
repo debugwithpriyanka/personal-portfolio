@@ -102,7 +102,18 @@ btn-lg
 "
 >
 
+<a
+href="#projects"
+className="
+btn
+btn-primary
+btn-lg
+"
+>
+
 View Projects
+
+</a>
 
 </button>
 
