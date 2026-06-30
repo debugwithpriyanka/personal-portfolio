@@ -1,6 +1,17 @@
+import { motion } from "framer-motion"
+import {
+FaGithub,
+FaLinkedin,
+FaEnvelope
+}
+from "react-icons/fa"
+
+export default function Hero(){
+
 return(
 
 <div
+id="home"
 className="
 section
 d-flex
@@ -9,8 +20,6 @@ justify-content-between
 flex-wrap
 "
 >
-
-{/* LEFT */}
 
 <div
 style={{
@@ -44,12 +53,9 @@ className="
 display-1
 fw-bold
 "
-
 >
 
-Hi,
-
-I'm
+Hi, I'm
 
 <span className="primary">
 
@@ -59,11 +65,7 @@ Priyanka
 
 </motion.h1>
 
-<h2
-className="
-mt-3
-"
->
+<h2 className="mt-3">
 
 Aspiring Full Stack &
 AI Developer
@@ -104,7 +106,8 @@ View Projects
 
 </button>
 
-<button
+<a
+href="/resume.pdf"
 className="
 btn
 btn-outline-light
@@ -114,7 +117,30 @@ btn-lg
 
 Resume
 
-</button>
+</a>
+
+</div>
+
+<div
+className="
+mt-4
+d-flex
+gap-4
+fs-4
+"
+>
+
+<a href="#">
+<FaGithub/>
+</a>
+
+<a href="#">
+<FaLinkedin/>
+</a>
+
+<a href="#">
+<FaEnvelope/>
+</a>
 
 </div>
 
@@ -127,35 +153,6 @@ mt-5
 >
 
 <div>
-
-<div
-className="
-mt-4
-d-flex
-gap-4
-fs-5
-"
->
-
-<span>
-
-🐙 GitHub
-
-</span>
-
-<span>
-
-💼 LinkedIn
-
-</span>
-
-<span>
-
-📧 Email
-
-</span>
-
-</div>
 
 <h2>5+</h2>
 
@@ -183,25 +180,11 @@ fs-5
 
 </div>
 
-{/* RIGHT */}
+<div className="hero-card">
 
-<div
-className="
-hero-card
-"
->
+<div className="hero-glow"/>
 
-<div
-className="
-hero-glow
-"
-/>
-
-<div
-className="
-hero-profile
-"
->
+<div className="hero-profile">
 
 👩‍💻
 
@@ -226,5 +209,6 @@ AI and cloud.
 
 </div>
 
-
 )
+
+}
