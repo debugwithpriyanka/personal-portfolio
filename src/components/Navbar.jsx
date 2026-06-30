@@ -17,7 +17,7 @@ className="py-4"
 className="text-white fw-bold fs-3"
 >
 
-Priyanka.dev
+Priyanka.codes
 
 </Navbar.Brand>
 
