@@ -108,6 +108,7 @@ project.stack.map(
 tech=>
 
 <span
+key={tech}
 className="
 badge
 bg-dark
