@@ -21,25 +21,41 @@ Priyanka.dev
 
 </Navbar.Brand>
 
-<Navbar.Toggle />
+<Navbar.Toggle
+aria-controls="basic-navbar-nav"
+/>
 
-<Navbar.Collapse>
+<Navbar.Collapse
+id="basic-navbar-nav"
+>
 
 <Nav className="ms-auto">
 
-<Nav.Link className="text-light">
+<Nav.Link
+href="#about"
+className="text-light"
+>
 About
 </Nav.Link>
 
-<Nav.Link className="text-light">
+<Nav.Link
+href="#skills"
+className="text-light"
+>
 Skills
 </Nav.Link>
 
-<Nav.Link className="text-light">
+<Nav.Link
+href="#projects"
+className="text-light"
+>
 Projects
 </Nav.Link>
 
-<Nav.Link className="text-light">
+<Nav.Link
+href="#contact"
+className="text-light"
+>
 Contact
 </Nav.Link>
 
