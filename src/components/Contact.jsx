@@ -7,12 +7,13 @@ id="contact"
 className="
 section
 text-center
+contact-section
 "
 >
 
 <h1
 className="
-display-3
+display-2
 fw-bold
 "
 >
