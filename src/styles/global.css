@@ -149,3 +149,34 @@ animation:
 float 4s ease infinite;
 
 }
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+width:700px;
+
+height:700px;
+
+background:
+
+rgba(
+109,
+93,
+254,
+0.08
+);
+
+filter:
+
+blur(150px);
+
+top:-200px;
+
+left:-200px;
+
+z-index:-1;
+
+}
