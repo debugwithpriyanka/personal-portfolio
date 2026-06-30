@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+
 import {
 FaGithub,
 FaLinkedin,
@@ -94,28 +95,23 @@ mt-5
 "
 >
 
-<button
-className="
-btn
-btn-primary
-btn-lg
-"
->
-
 <a
 href="#projects"
 className="
 btn
 btn-primary
 btn-lg
+hero-btn
 "
+style={{
+height:"64px",
+borderRadius:"18px"
+}}
 >
 
 View Projects
 
 </a>
-
-</button>
 
 <a
 href="/resume.pdf"
@@ -123,7 +119,12 @@ className="
 btn
 btn-outline-light
 btn-lg
+hero-btn
 "
+style={{
+height:"64px",
+borderRadius:"18px"
+}}
 >
 
 Resume
@@ -134,22 +135,31 @@ Resume
 
 <div
 className="
-mt-4
+mt-5
 d-flex
 gap-4
 fs-4
 "
 >
 
-<a href="#">
+<a
+href="#"
+className="text-light"
+>
 <FaGithub/>
 </a>
 
-<a href="#">
+<a
+href="#"
+className="text-light"
+>
 <FaLinkedin/>
 </a>
 
-<a href="#">
+<a
+href="#"
+className="text-light"
+>
 <FaEnvelope/>
 </a>
 
@@ -165,25 +175,49 @@ mt-5
 
 <div>
 
-<h2>5+</h2>
+<h2>
 
-<p>Projects</p>
+5+
+
+</h2>
+
+<p>
+
+Projects
+
+</p>
 
 </div>
 
 <div>
 
-<h2>10+</h2>
+<h2>
 
-<p>Technologies</p>
+10+
+
+</h2>
+
+<p>
+
+Technologies
+
+</p>
 
 </div>
 
 <div>
 
-<h2>∞</h2>
+<h2>
 
-<p>Learning</p>
+∞
+
+</h2>
+
+<p>
+
+Learning
+
+</p>
 
 </div>
 
@@ -211,8 +245,11 @@ Growing.
 
 <p>
 
-Focused on web,
-AI and cloud.
+Focused on
+Web,
+AI
+and
+Cloud.
 
 </p>
 
