@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import profile from "../assets/profile.png"
 
 import {
 FaGithub,
@@ -231,7 +232,15 @@ Learning
 
 <div className="hero-profile">
 
-👩‍💻
+<img
+
+src={profile}
+
+alt="profile"
+
+className="profile-image"
+
+/>
 
 </div>
 

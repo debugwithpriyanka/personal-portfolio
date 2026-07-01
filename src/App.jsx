@@ -6,6 +6,7 @@ import Skills from "./components/Skills"
 import Journey from "./components/Journey"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer" 
+import BackTop from "./components/BackTop"
 
 function App(){
 
@@ -28,6 +29,8 @@ return(
 <Contact/>
 
 <Footer/>
+
+<BackTop/>
 
 </>
 

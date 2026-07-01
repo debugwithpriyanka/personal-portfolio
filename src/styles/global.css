@@ -223,9 +223,20 @@ transition:.4s;
 
 transform:
 
-translateY(
--10px
+translateY(-12px)
+scale(1.02);
+
+box-shadow:
+
+0 0 120px
+rgba(
+109,
+93,
+254,
+0.25
 );
+
+}
 
 box-shadow:
 
@@ -502,5 +513,71 @@ padding:
 html{
 
 scroll-behavior:smooth;
+
+}
+
+.profile-image{
+
+width:280px;
+
+height:280px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+border:
+
+3px solid
+rgba(
+109,
+93,
+254,
+0.5
+);
+
+box-shadow:
+
+0 0 80px
+rgba(
+109,
+93,
+254,
+0.3
+);
+
+}
+
+.back-btn{
+
+position:fixed;
+
+right:30px;
+
+bottom:30px;
+
+width:60px;
+
+height:60px;
+
+border:none;
+
+border-radius:50%;
+
+font-size:24px;
+
+background:
+
+#6D5DFE;
+
+color:white;
+
+}
+
+body{
+
+cursor:
+
+crosshair;
 
 }
